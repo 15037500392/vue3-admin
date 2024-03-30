@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>我是App</div>
+  <div>我是App22</div>
 </template>
 
 <style scoped>
