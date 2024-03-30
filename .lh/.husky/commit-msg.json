@@ -1,18 +1,18 @@
 {
-    "sourceFile": ".husky/pre-commit",
+    "sourceFile": ".husky/commit-msg",
     "activeCommit": 0,
     "commits": [
         {
             "activePatchIndex": 0,
             "patches": [
                 {
-                    "date": 1711783810922,
+                    "date": 1711786401339,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
                 }
             ],
-            "date": 1711783810922,
+            "date": 1711786401339,
             "name": "Commit-0",
-            "content": "#!/usr/bin/env sh\n. \"$(dirname -- \"$0\")/_/husky.sh\"\n\npnpm run format\n"
+            "content": "#!/usr/bin/env sh\n. \"$(dirname -- \"$0\")/_/husky.sh\"\n\npnpm commitlint\n"
         }
     ]
 }
