@@ -1,0 +1,62 @@
+{
+  "sourceFile": "src/main.ts",
+  "activeCommit": 0,
+  "commits": [
+    {
+      "activePatchIndex": 11,
+      "patches": [
+        {
+          "date": 1710660327281,
+          "content": "Index: \n===================================================================\n--- \n+++ \n"
+        },
+        {
+          "date": 1710660361876,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n-var \n createApp(App).mount('#app')\n"
+        },
+        {
+          "date": 1711782351260,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n+\n+const fun = () => {\n+    \n+}\n"
+        },
+        {
+          "date": 1711782357435,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n import App from './App.vue'\n createApp(App).mount('#app')\n \n const fun = () => {\n-    \n+    console.\n }\n"
+        },
+        {
+          "date": 1711782366587,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n import App from './App.vue'\n createApp(App).mount('#app')\n \n const fun = () => {\n-    console.\n+    console.log(\"w\")\n }\n"
+        },
+        {
+          "date": 1711782373165,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-const fun = () => {\n-    console.log(\"w\")\n+const fun = () =>\n+{\n+    console.log(\"我爱你中国\")\n }\n+\n"
+        },
+        {
+          "date": 1711782379784,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n import App from './App.vue'\n createApp(App).mount('#app')\n \n const fun = () =>\n+\n {\n     console.log(\"我爱你中国\")\n }\n \n+fun()\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711782773864,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-const fun = () =>\n+va r fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n }\n \n\\ No newline at end of file\n-fun()\n+fun();\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711782784152,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-va r fun = () =>\n+const  fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n }\n"
+        },
+        {
+          "date": 1711782790018,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n+var a = 11;\n const  fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n"
+        },
+        {
+          "date": 1711782800649,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-var a = 11;\n const  fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n"
+        },
+        {
+          "date": 1711783485360,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-const  fun = () =>\n-\n-{\n-    console.log(\"我爱你中国\")\n+const fun = () => {\n+  console.log(\"我爱你中国')\n }\n\\ No newline at end of file\n \n-fun();\n+fun()\n"
+        }
+      ],
+      "date": 1710660327281,
+      "name": "Commit-0",
+      "content": "import { createApp } from 'vue'\nimport './style.css'\nimport App from './App.vue'\nvar \ncreateApp(App).mount('#app')\n"
+    }
+  ]
+}

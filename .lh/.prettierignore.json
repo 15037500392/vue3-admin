@@ -1,0 +1,38 @@
+{
+  "sourceFile": ".prettierignore",
+  "activeCommit": 0,
+  "commits": [
+    {
+      "activePatchIndex": 5,
+      "patches": [
+        {
+          "date": 1711782601240,
+          "content": "Index: \n===================================================================\n--- \n+++ \n"
+        },
+        {
+          "date": 1711782606475,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-/dist\n\\ No newline at end of file\n+/dist/*\n+/html/\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711782613406,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n /dist/*\n-/html/\n\\ No newline at end of file\n+/html/*\n+.local\n+/node_modules\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711782620661,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n /dist/*\n /html/*\n .local\n-/node_modules\n\\ No newline at end of file\n+/node_modules/** \n+**\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711782629742,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n /dist/*\n /html/*\n .local\n /node_modules/** \n-**\n\\ No newline at end of file\n+\n+**/*.sh\n"
+        },
+        {
+          "date": 1711782636514,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n /dist/*\n /html/*\n .local\n /node_modules/** \n+**/*.svg\n+**/*.sh\n \n-**/*.sh\n"
+        }
+      ],
+      "date": 1711782601240,
+      "name": "Commit-0",
+      "content": "/dist"
+    }
+  ]
+}

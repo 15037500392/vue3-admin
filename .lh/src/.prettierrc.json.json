@@ -1,0 +1,58 @@
+{
+  "sourceFile": "src/.prettierrc.json",
+  "activeCommit": 0,
+  "commits": [
+    {
+      "activePatchIndex": 10,
+      "patches": [
+        {
+          "date": 1710660500421,
+          "content": "Index: \n===================================================================\n--- \n+++ \n"
+        },
+        {
+          "date": 1710660505521,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-{]}\n\\ No newline at end of file\n+{\n+    \n+}\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1710660513628,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n {\n+    \"singleQuote\": true,\n     \n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1710660519904,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n {\n     \"singleQuote\": true,\n+    \"semi\": false,\n     \n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1710660525335,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n {\n     \"singleQuote\": true,\n     \"semi\": false,\n-    \n+    \"bracketSpacing\": true\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1710660531930,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n {\n     \"singleQuote\": true,\n     \"semi\": false,\n-    \"bracketSpacing\": true\n+    \"bracketSpacing\": true,\n+    \n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1710660537833,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n {\n     \"singleQuote\": true,\n     \"semi\": false,\n     \"bracketSpacing\": true,\n-    \n+    \"htmlWhitespaceSensitivity\": \"css\"\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1710660545160,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n {\n     \"singleQuote\": true,\n     \"semi\": false,\n     \"bracketSpacing\": true,\n-    \"htmlWhitespaceSensitivity\": \"css\"\n+    \"htmlWhitespaceSensitivity\": \"ignore\",\n+    \n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1710660554220,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n     \"singleQuote\": true,\n     \"semi\": false,\n     \"bracketSpacing\": true,\n     \"htmlWhitespaceSensitivity\": \"ignore\",\n-    \n+    \"endOfLine\": \"auto\"\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1710660560322,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,7 @@\n     \"singleQuote\": true,\n     \"semi\": false,\n     \"bracketSpacing\": true,\n     \"htmlWhitespaceSensitivity\": \"ignore\",\n-    \"endOfLine\": \"auto\"\n+    \"endOfLine\": \"auto\",\n+    \"trailingComma\": \"all\"\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1710660567555,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n     \"semi\": false,\n     \"bracketSpacing\": true,\n     \"htmlWhitespaceSensitivity\": \"ignore\",\n     \"endOfLine\": \"auto\",\n-    \"trailingComma\": \"all\"\n+    \"trailingComma\": \"all\",\n+    \"ta\"\n }\n\\ No newline at end of file\n"
+        }
+      ],
+      "date": 1710660500421,
+      "name": "Commit-0",
+      "content": "{]}"
+    }
+  ]
+}
