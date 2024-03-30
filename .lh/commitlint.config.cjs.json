@@ -1,146 +1,146 @@
 {
-    "sourceFile": "commitlint.config.cjs",
-    "activeCommit": 0,
-    "commits": [
+  "sourceFile": "commitlint.config.cjs",
+  "activeCommit": 0,
+  "commits": [
+    {
+      "activePatchIndex": 32,
+      "patches": [
         {
-            "activePatchIndex": 32,
-            "patches": [
-                {
-                    "date": 1711784864040,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n"
-                },
-                {
-                    "date": 1711784869796,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-module\n\\ No newline at end of file\n+module.exports = {\n+    \n+}\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784890748,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n module.exports = {\n-    \n+    extends:[]\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784900519,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n module.exports = {\n-    extends:[]\n+    extends:['@commit']\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784930465,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n module.exports = {\n-    extends:['@commit']\n+    extends:['@commitlint/config-conventional\"']\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784938323,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n module.exports = {\n-    extends:['@commitlint/config-conventional\"']\n+    extends: ['@commitlint/config-conventional'],\n+    \n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784944669,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n module.exports = {\n     extends: ['@commitlint/config-conventional'],\n-    \n+    rules\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784951379,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n module.exports = {\n     extends: ['@commitlint/config-conventional'],\n-    rules\n+    rules: {\n+        'type-'\n+    }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784957543,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n module.exports = {\n     extends: ['@commitlint/config-conventional'],\n     rules: {\n-        'type-'\n+        'type-enum': [\n+            2\n+        ]\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784964759,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+module.exports = {\n+    extends: ['@commitlint/config-conventional'],\n+    rules: {\n+        'type-enum': [\n+            2,\n+            'always'\n+        ]\n+    }\n+}\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784971362,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,16 +2,11 @@\n     extends: ['@commitlint/config-conventional'],\n     rules: {\n         'type-enum': [\n             2,\n-            'always'\n+            'always',\n+            [\n+                \n+            ]\n         ]\n     }\n-}\n-module.exports = {\n-    extends: ['@commitlint/config-conventional'],\n-    rules: {\n-        'type-enum': [\n-            2\n-        ]\n-    }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784976423,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n         'type-enum': [\n             2,\n             'always',\n             [\n+                'feat',\n                 \n             ]\n         ]\n     }\n"
-                },
-                {
-                    "date": 1711784981743,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,10 @@\n             2,\n             'always',\n             [\n                 'feat',\n-                \n+                'fix',\n+                'docs'\n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784987264,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,11 @@\n             'always',\n             [\n                 'feat',\n                 'fix',\n-                'docs'\n+                'docs',\n+                'style',\n+                \n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711784997337,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n                 'feat',\n                 'fix',\n                 'docs',\n                 'style',\n+                'refactor',\n                 \n             ]\n         ]\n     }\n"
-                },
-                {
-                    "date": 1711785785568,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n                 'fix',\n                 'docs',\n                 'style',\n                 'refactor',\n+                'perf',\n                 \n             ]\n         ]\n     }\n"
-                },
-                {
-                    "date": 1711785791600,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n                 'docs',\n                 'style',\n                 'refactor',\n                 'perf',\n-                \n+                'test',\n+                'chor'\n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785797646,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n                 'style',\n                 'refactor',\n                 'perf',\n                 'test',\n-                'chor'\n+                'chore',\n+                'revert'\n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785870074,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,10 @@\n                 'refactor',\n                 'perf',\n                 'test',\n                 'chore',\n-                'revert'\n+                'revert',\n+                \n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785875483,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n                 'perf',\n                 'test',\n                 'chore',\n                 'revert',\n-                \n+                'build'\n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785883155,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,7 +15,8 @@\n                 'chore',\n                 'revert',\n                 'build'\n             ]\n-        ]\n+        ],\n+        'type'\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785888485,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,7 @@\n                 'revert',\n                 'build'\n             ]\n         ],\n-        'type'\n+        'type-case':[0]\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785893608,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,8 @@\n                 'revert',\n                 'build'\n             ]\n         ],\n-        'type-case':[0]\n+        'type-case': [0],\n+        'type-em'\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785901486,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,7 +17,8 @@\n                 'build'\n             ]\n         ],\n         'type-case': [0],\n-        'type-em'\n+        'type-empty': [0],\n+        'type'\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785906541,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,7 @@\n             ]\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n-        'type'\n+        'type-case':[0]\n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785917902,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,8 @@\n             ]\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n-        'type-case':[0]\n+        'scope': [0],\n+        \n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785926309,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n             ]\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n-        'scope': [0],\n+        'scope-empty': [0],\n+        'scope-'\n         \n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785931414,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,8 @@\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n         'scope-empty': [0],\n-        'scope-'\n+        'scope-case':[0]\n         \n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785940676,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n         'scope-empty': [0],\n-        'scope-case':[0]\n+        'scope-case': [0],\n+        'subject-full-stop'\n         \n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785948415,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,8 @@\n         'type-case': [0],\n         'type-empty': [0],\n         'scope-empty': [0],\n         'scope-case': [0],\n-        'subject-full-stop'\n+        'subject-full-stop':[0,'']\n         \n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785954293,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n         'type-case': [0],\n         'type-empty': [0],\n         'scope-empty': [0],\n         'scope-case': [0],\n-        'subject-full-stop':[0,'']\n+        'subject-full-stop': [0, 'never'],\n         \n+        \n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785959908,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,8 @@\n         'type-empty': [0],\n         'scope-empty': [0],\n         'scope-case': [0],\n         'subject-full-stop': [0, 'never'],\n-        'subject'\n+        'subject-cs='\n         \n     }\n }\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1711785975539,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,29 @@\n+module.exports = {\n+    extends: ['@commitlint/config-conventional'],\n+    rules: {\n+        'type-enum': [\n+            2,\n+            'always',\n+            [\n+                'feat',\n+                'fix',\n+                'docs',\n+                'style',\n+                'refactor',\n+                'perf',\n+                'test',\n+                'chore',\n+                'revert',\n+                'build'\n+            ]\n+        ],\n+        'type-case': [0],\n+        'type-empty': [0],\n+        'scope-empty': [0],\n+        'scope-case': [0],\n+        'subject-full-stop': [0, 'never'],\n+        'subject-case': [0, 'never'],\n+        'header-max-length'\n+        \n+    }\n+}\n\\ No newline at end of file\n"
-                }
-            ],
-            "date": 1711784864040,
-            "name": "Commit-0",
-            "content": "module"
+          "date": 1711784864040,
+          "content": "Index: \n===================================================================\n--- \n+++ \n"
+        },
+        {
+          "date": 1711784869796,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-module\n\\ No newline at end of file\n+module.exports = {\n+    \n+}\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784890748,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n module.exports = {\n-    \n+    extends:[]\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784900519,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n module.exports = {\n-    extends:[]\n+    extends:['@commit']\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784930465,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n module.exports = {\n-    extends:['@commit']\n+    extends:['@commitlint/config-conventional\"']\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784938323,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n module.exports = {\n-    extends:['@commitlint/config-conventional\"']\n+    extends: ['@commitlint/config-conventional'],\n+    \n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784944669,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n module.exports = {\n     extends: ['@commitlint/config-conventional'],\n-    \n+    rules\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784951379,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n module.exports = {\n     extends: ['@commitlint/config-conventional'],\n-    rules\n+    rules: {\n+        'type-'\n+    }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784957543,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n module.exports = {\n     extends: ['@commitlint/config-conventional'],\n     rules: {\n-        'type-'\n+        'type-enum': [\n+            2\n+        ]\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784964759,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+module.exports = {\n+    extends: ['@commitlint/config-conventional'],\n+    rules: {\n+        'type-enum': [\n+            2,\n+            'always'\n+        ]\n+    }\n+}\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784971362,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,16 +2,11 @@\n     extends: ['@commitlint/config-conventional'],\n     rules: {\n         'type-enum': [\n             2,\n-            'always'\n+            'always',\n+            [\n+                \n+            ]\n         ]\n     }\n-}\n-module.exports = {\n-    extends: ['@commitlint/config-conventional'],\n-    rules: {\n-        'type-enum': [\n-            2\n-        ]\n-    }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784976423,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n         'type-enum': [\n             2,\n             'always',\n             [\n+                'feat',\n                 \n             ]\n         ]\n     }\n"
+        },
+        {
+          "date": 1711784981743,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,10 @@\n             2,\n             'always',\n             [\n                 'feat',\n-                \n+                'fix',\n+                'docs'\n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784987264,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,11 @@\n             'always',\n             [\n                 'feat',\n                 'fix',\n-                'docs'\n+                'docs',\n+                'style',\n+                \n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711784997337,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n                 'feat',\n                 'fix',\n                 'docs',\n                 'style',\n+                'refactor',\n                 \n             ]\n         ]\n     }\n"
+        },
+        {
+          "date": 1711785785568,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n                 'fix',\n                 'docs',\n                 'style',\n                 'refactor',\n+                'perf',\n                 \n             ]\n         ]\n     }\n"
+        },
+        {
+          "date": 1711785791600,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n                 'docs',\n                 'style',\n                 'refactor',\n                 'perf',\n-                \n+                'test',\n+                'chor'\n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785797646,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n                 'style',\n                 'refactor',\n                 'perf',\n                 'test',\n-                'chor'\n+                'chore',\n+                'revert'\n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785870074,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,10 @@\n                 'refactor',\n                 'perf',\n                 'test',\n                 'chore',\n-                'revert'\n+                'revert',\n+                \n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785875483,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n                 'perf',\n                 'test',\n                 'chore',\n                 'revert',\n-                \n+                'build'\n             ]\n         ]\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785883155,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,7 +15,8 @@\n                 'chore',\n                 'revert',\n                 'build'\n             ]\n-        ]\n+        ],\n+        'type'\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785888485,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,7 @@\n                 'revert',\n                 'build'\n             ]\n         ],\n-        'type'\n+        'type-case':[0]\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785893608,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,8 @@\n                 'revert',\n                 'build'\n             ]\n         ],\n-        'type-case':[0]\n+        'type-case': [0],\n+        'type-em'\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785901486,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,7 +17,8 @@\n                 'build'\n             ]\n         ],\n         'type-case': [0],\n-        'type-em'\n+        'type-empty': [0],\n+        'type'\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785906541,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,7 @@\n             ]\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n-        'type'\n+        'type-case':[0]\n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785917902,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,8 @@\n             ]\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n-        'type-case':[0]\n+        'scope': [0],\n+        \n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785926309,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n             ]\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n-        'scope': [0],\n+        'scope-empty': [0],\n+        'scope-'\n         \n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785931414,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,8 @@\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n         'scope-empty': [0],\n-        'scope-'\n+        'scope-case':[0]\n         \n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785940676,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n         ],\n         'type-case': [0],\n         'type-empty': [0],\n         'scope-empty': [0],\n-        'scope-case':[0]\n+        'scope-case': [0],\n+        'subject-full-stop'\n         \n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785948415,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,8 @@\n         'type-case': [0],\n         'type-empty': [0],\n         'scope-empty': [0],\n         'scope-case': [0],\n-        'subject-full-stop'\n+        'subject-full-stop':[0,'']\n         \n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785954293,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n         'type-case': [0],\n         'type-empty': [0],\n         'scope-empty': [0],\n         'scope-case': [0],\n-        'subject-full-stop':[0,'']\n+        'subject-full-stop': [0, 'never'],\n         \n+        \n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785959908,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,8 @@\n         'type-empty': [0],\n         'scope-empty': [0],\n         'scope-case': [0],\n         'subject-full-stop': [0, 'never'],\n-        'subject'\n+        'subject-cs='\n         \n     }\n }\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1711785975539,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,29 @@\n+module.exports = {\n+    extends: ['@commitlint/config-conventional'],\n+    rules: {\n+        'type-enum': [\n+            2,\n+            'always',\n+            [\n+                'feat',\n+                'fix',\n+                'docs',\n+                'style',\n+                'refactor',\n+                'perf',\n+                'test',\n+                'chore',\n+                'revert',\n+                'build'\n+            ]\n+        ],\n+        'type-case': [0],\n+        'type-empty': [0],\n+        'scope-empty': [0],\n+        'scope-case': [0],\n+        'subject-full-stop': [0, 'never'],\n+        'subject-case': [0, 'never'],\n+        'header-max-length'\n+        \n+    }\n+}\n\\ No newline at end of file\n"
         }
-    ]
+      ],
+      "date": 1711784864040,
+      "name": "Commit-0",
+      "content": "module"
+    }
+  ]
 }
