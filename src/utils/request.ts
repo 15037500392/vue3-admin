@@ -18,26 +18,27 @@ request.interceptors.response.use(
     let message = ''
     const status = error.response.status
     switch (status) {
-        case 401:
-            message = 'TOKEN过期';
-            break;
-        case 403:
-            message = '无权访问';
-            break;
-        case 404:
-            message = '请求地址错误';
-            break;
-        case 500:
-            message = '服务器出现问题';
-            break;
-        default:
-            message = '网络出现问题';
-            break;
+      case 401:
+        message = 'TOKEN过期'
+        break
+      case 403:
+        message = '无权访问'
+        break
+      case 404:
+        message = '请求地址错误'
+        break
+      case 500:
+        message = '服务器出现问题'
+        break
+      default:
+        message = '网络出现问题'
+        break
     }
-      ElMessage({
-          type: 'error',
-          message
-      })
-  })
+    ElMessage({
+      type: 'error',
+      message,
+    })
+  },
+)
 
 export default request
