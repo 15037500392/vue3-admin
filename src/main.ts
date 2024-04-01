@@ -1,10 +1,19 @@
 import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
-createApp(App).mount('#app')
+import App from '@/App.vue'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+// svg插件配置
+import 'virtual:svg-icons-register'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
+const app = createApp(App)
+app.use(ElementPlus, {
+  locale: zhCn,
+})
+import globalComponents from '@/components'
+app.use(globalComponents)
 
-const fun = () => {
-  console.log('我爱你中国')
-}
+import '@/styles/index.scss'
 
-fun()
+app.mount('#app')

@@ -1,62 +1,390 @@
 {
-  "sourceFile": "src/main.ts",
-  "activeCommit": 0,
-  "commits": [
-    {
-      "activePatchIndex": 11,
-      "patches": [
+    "sourceFile": "src/main.ts",
+    "activeCommit": 0,
+    "commits": [
         {
-          "date": 1710660327281,
-          "content": "Index: \n===================================================================\n--- \n+++ \n"
-        },
-        {
-          "date": 1710660361876,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n-var \n createApp(App).mount('#app')\n"
-        },
-        {
-          "date": 1711782351260,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n+\n+const fun = () => {\n+    \n+}\n"
-        },
-        {
-          "date": 1711782357435,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n import App from './App.vue'\n createApp(App).mount('#app')\n \n const fun = () => {\n-    \n+    console.\n }\n"
-        },
-        {
-          "date": 1711782366587,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n import App from './App.vue'\n createApp(App).mount('#app')\n \n const fun = () => {\n-    console.\n+    console.log(\"w\")\n }\n"
-        },
-        {
-          "date": 1711782373165,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-const fun = () => {\n-    console.log(\"w\")\n+const fun = () =>\n+{\n+    console.log(\"我爱你中国\")\n }\n+\n"
-        },
-        {
-          "date": 1711782379784,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n import App from './App.vue'\n createApp(App).mount('#app')\n \n const fun = () =>\n+\n {\n     console.log(\"我爱你中国\")\n }\n \n+fun()\n\\ No newline at end of file\n"
-        },
-        {
-          "date": 1711782773864,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-const fun = () =>\n+va r fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n }\n \n\\ No newline at end of file\n-fun()\n+fun();\n\\ No newline at end of file\n"
-        },
-        {
-          "date": 1711782784152,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-va r fun = () =>\n+const  fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n }\n"
-        },
-        {
-          "date": 1711782790018,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n+var a = 11;\n const  fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n"
-        },
-        {
-          "date": 1711782800649,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-var a = 11;\n const  fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n"
-        },
-        {
-          "date": 1711783485360,
-          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-const  fun = () =>\n-\n-{\n-    console.log(\"我爱你中国\")\n+const fun = () => {\n+  console.log(\"我爱你中国')\n }\n\\ No newline at end of file\n \n-fun();\n+fun()\n"
+            "activePatchIndex": 93,
+            "patches": [
+                {
+                    "date": 1710660327281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710660361876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n-var \n createApp(App).mount('#app')\n"
+                },
+                {
+                    "date": 1711782351260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n+\n+const fun = () => {\n+    \n+}\n"
+                },
+                {
+                    "date": 1711782357435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n import App from './App.vue'\n createApp(App).mount('#app')\n \n const fun = () => {\n-    \n+    console.\n }\n"
+                },
+                {
+                    "date": 1711782366587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n import App from './App.vue'\n createApp(App).mount('#app')\n \n const fun = () => {\n-    console.\n+    console.log(\"w\")\n }\n"
+                },
+                {
+                    "date": 1711782373165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-const fun = () => {\n-    console.log(\"w\")\n+const fun = () =>\n+{\n+    console.log(\"我爱你中国\")\n }\n+\n"
+                },
+                {
+                    "date": 1711782379784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n import App from './App.vue'\n createApp(App).mount('#app')\n \n const fun = () =>\n+\n {\n     console.log(\"我爱你中国\")\n }\n \n+fun()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711782773864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-const fun = () =>\n+va r fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n }\n \n\\ No newline at end of file\n-fun()\n+fun();\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1711782784152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-va r fun = () =>\n+const  fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n }\n"
+                },
+                {
+                    "date": 1711782790018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n+var a = 11;\n const  fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n"
+                },
+                {
+                    "date": 1711782800649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,8 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-var a = 11;\n const  fun = () =>\n \n {\n     console.log(\"我爱你中国\")\n"
+                },
+                {
+                    "date": 1711783485360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,9 @@\n import './style.css'\n import App from './App.vue'\n createApp(App).mount('#app')\n \n-const  fun = () =>\n-\n-{\n-    console.log(\"我爱你中国\")\n+const fun = () => {\n+  console.log(\"我爱你中国')\n }\n\\ No newline at end of file\n \n-fun();\n+fun()\n"
+                },
+                {
+                    "date": 1711787805272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n+import \n createApp(App).mount('#app')\n \n const fun = () => {\n-  console.log(\"我爱你中国')\n+  console.log('我爱你中国')\n }\n\\ No newline at end of file\n \n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787811485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n-import \n+import Ele\n createApp(App).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n\\ No newline at end of file\n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787820699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n-import Ele\n+import ElementPlus from 'element-plus'\n createApp(App).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n\\ No newline at end of file\n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787829586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n-import ElementPlus from 'element-plus'\n+import ElementPlus from 'element-plus';\n+import 'element-plus/dist/'\n createApp(App).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n\\ No newline at end of file\n \n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787835133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n-import ElementPlus from 'element-plus';\n-import 'element-plus/dist/'\n+import ElementPlus from 'element-plus'\n+import 'element-plus/dist/index.css'\n createApp(App).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n\\ No newline at end of file\n \n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787843210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,12 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n+\n createApp(App).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n\\ No newline at end of file\n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787855456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-\n+import zhCn from \n createApp(App).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n\\ No newline at end of file\n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787862111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-import zhCn from \n+import zhCn from 'element-plus/dist/locale'\n createApp(App).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n\\ No newline at end of file\n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787869553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-import zhCn from 'element-plus/dist/locale'\n+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n\\ No newline at end of file\n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787875830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,11 @@\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-createApp(App).mount('#app')\n+createApp(App).usemount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n\\ No newline at end of file\n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787884039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,11 @@\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-createApp(App).usemount('#app')\n+createApp(App).use(ElementPlus, {}).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n\\ No newline at end of file\n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787890726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,13 @@\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-createApp(App).use(ElementPlus, {}).mount('#app')\n+createApp(App).use(ElementPlus, {\n+  locale:zhCn\n+}).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n\\ No newline at end of file\n }\n \n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787903547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,14 +2,14 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n+import zhCn from 'element-plus/dist/locale/'\n createApp(App).use(ElementPlus, {\n   locale:zhCn\n }).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n\\ No newline at end of file\n-fun()\n+fun()\n"
+                },
+                {
+                    "date": 1711787909024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,14 +2,13 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-import zhCn from 'element-plus/dist/locale/'\n createApp(App).use(ElementPlus, {\n   locale:zhCn\n }).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n \n-fun()\n\\ No newline at end of file\n+fun()\n"
+                },
+                {
+                    "date": 1711787918655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,9 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-createApp(App).use(ElementPlus, {\n-  locale:zhCn\n-}).mount('#app')\n+createApp(App).use(ElementPlus).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n"
+                },
+                {
+                    "date": 1711788035848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n"
+                },
+                {
+                    "date": 1711788045709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,13 @@\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-createApp(App).use(ElementPlus).mount('#app')\n+createApp(App).use(ElementPlus, {\n+  , {\n+    locale: zhCn,\n+  }\n+}).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n }\n"
+                },
+                {
+                    "date": 1711788053462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,10 @@\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n-  , {\n+  \n     locale: zhCn,\n-  }\n }).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n"
+                },
+                {
+                    "date": 1711788353251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n+@\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n-  \n-    locale: zhCn,\n+    locale: zhCn\n }).mount('#app')\n \n const fun = () => {\n   console.log('我爱你中国')\n"
+                },
+                {
+                    "date": 1711788359663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-@\n+// @t\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n     locale: zhCn\n }).mount('#app')\n"
+                },
+                {
+                    "date": 1711788386396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-// @t\n+// @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n     locale: zhCn\n }).mount('#app')\n"
+                },
+                {
+                    "date": 1711788396784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+/* eslint-disable @typescript-eslint/ban-ts-comment */\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n"
+                },
+                {
+                    "date": 1711788404546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-// @ts-expect-error\n+// @\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n     locale: zhCn\n }).mount('#app')\n"
+                },
+                {
+                    "date": 1711788410763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n-/* eslint-disable @typescript-eslint/ban-ts-comment */\n+\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-// @\n+// @t\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n     locale: zhCn\n }).mount('#app')\n"
+                },
+                {
+                    "date": 1711788435389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-// @t\n+// eslint-disable-next-line @typescript-eslint/prefer-ts-expect-error\n+// @ts-ignore\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n     locale: zhCn\n }).mount('#app')\n"
+                },
+                {
+                    "date": 1711788445843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n+/* eslint-disable @typescript-eslint/prefer-ts-expect-error */\n \n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-// eslint-disable-next-line @typescript-eslint/prefer-ts-expect-error\n // @ts-ignore\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n     locale: zhCn\n"
+                },
+                {
+                    "date": 1711788450953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-// @ts-ignore\n+// @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n     locale: zhCn\n }).mount('#app')\n"
+                },
+                {
+                    "date": 1711788458811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n-/* eslint-disable @typescript-eslint/prefer-ts-expect-error */\n \n+\n import { createApp } from 'vue'\n import './style.css'\n import App from './App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n+// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n // @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n     locale: zhCn\n"
+                },
+                {
+                    "date": 1711788622354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,7 @@\n-\n-\n import { createApp } from 'vue'\n import './style.css'\n-import App from './App.vue'\n+import App from '/App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n // eslint-disable-next-line @typescript-eslint/ban-ts-comment\n // @ts-expect-error\n"
+                },
+                {
+                    "date": 1711870335163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import { createApp } from 'vue'\n import './style.css'\n-import App from '/App.vue'\n+import App from '@/App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n+import 'virtual:svg-icons-register'\n // eslint-disable-next-line @typescript-eslint/ban-ts-comment\n // @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n createApp(App).use(ElementPlus, {\n"
+                },
+                {
+                    "date": 1711870483362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import './style.css'\n import App from '@/App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n+\n import 'virtual:svg-icons-register'\n // eslint-disable-next-line @typescript-eslint/ban-ts-comment\n // @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n"
+                },
+                {
+                    "date": 1711870494252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './style.css'\n import App from '@/App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n-\n+// svg插件配置\n import 'virtual:svg-icons-register'\n // eslint-disable-next-line @typescript-eslint/ban-ts-comment\n // @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n"
+                },
+                {
+                    "date": 1711871436283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,4 @@\n createApp(App).use(ElementPlus, {\n     locale: zhCn\n }).mount('#app')\n \n-const fun = () => {\n-  console.log('我爱你中国')\n-}\n-\n-fun()\n"
+                },
+                {
+                    "date": 1711871442920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import { createApp } from 'vue'\n+import './style.css'\n+import App from '@/App.vue'\n+import ElementPlus from 'element-plus'\n+import 'element-plus/dist/index.css'\n+// svg插件配置\n+import 'virtual:svg-icons-register'\n+// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n+// @ts-expect-error\n+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n+createApp(App).use(ElementPlus, {\n+    locale: zhCn\n+}).mount('#app')\n+\n"
+                },
+                {
+                    "date": 1711871448086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,22 +7,8 @@\n import 'virtual:svg-icons-register'\n // eslint-disable-next-line @typescript-eslint/ban-ts-comment\n // @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-createApp(App).use(ElementPlus, {\n+const acreateApp(App).use(ElementPlus, {\n     locale: zhCn\n }).mount('#app')\n \n-import { createApp } from 'vue'\n-import './style.css'\n-import App from '@/App.vue'\n-import ElementPlus from 'element-plus'\n-import 'element-plus/dist/index.css'\n-// svg插件配置\n-import 'virtual:svg-icons-register'\n-// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n-// @ts-expect-error\n-import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-createApp(App).use(ElementPlus, {\n-    locale: zhCn\n-}).mount('#app')\n-\n"
+                },
+                {
+                    "date": 1711871456492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n import 'virtual:svg-icons-register'\n // eslint-disable-next-line @typescript-eslint/ban-ts-comment\n // @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-const acreateApp(App).use(ElementPlus, {\n+const app = createApp(App)\n+  app.use(ElementPlus, {\n     locale: zhCn\n }).mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871469429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,7 @@\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n const app = createApp(App)\n   app.use(ElementPlus, {\n     locale: zhCn\n-}).mount('#app')\n+  })\n+    app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871476613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,9 @@\n const app = createApp(App)\n   app.use(ElementPlus, {\n     locale: zhCn\n   })\n+  \n+  // \n+\n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871485364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import { createApp } from 'vue'\n+import './style.css'\n+import App from '@/App.vue'\n+import ElementPlus from 'element-plus'\n+import 'element-plus/dist/index.css'\n+// svg插件配置\n+import 'virtual:svg-icons-register'\n+// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n+// @ts-expect-error\n+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n+const app = createApp(App)\n+  app.use(ElementPlus, {\n+    locale: zhCn\n+  })\n+  \n+  // 全ju\n+\n+    app.mount('#app')\n+\n"
+                },
+                {
+                    "date": 1711871492588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,27 +12,8 @@\n   app.use(ElementPlus, {\n     locale: zhCn\n   })\n   \n-  // 全ju\n+  // 全局引入SVG\n \n     app.mount('#app')\n \n-import { createApp } from 'vue'\n-import './style.css'\n-import App from '@/App.vue'\n-import ElementPlus from 'element-plus'\n-import 'element-plus/dist/index.css'\n-// svg插件配置\n-import 'virtual:svg-icons-register'\n-// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n-// @ts-expect-error\n-import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-const app = createApp(App)\n-  app.use(ElementPlus, {\n-    locale: zhCn\n-  })\n-  \n-  // \n-\n-    app.mount('#app')\n-\n"
+                },
+                {
+                    "date": 1711871498847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n   app.use(ElementPlus, {\n     locale: zhCn\n   })\n   \n-  // 全局引入SVG\n+// 全局引入SVG\n+  import SVG\n \n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871506344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n     locale: zhCn\n   })\n   \n // 全局引入SVG\n-  import SVG\n+  import SvgIcon from\n \n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871517071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n     locale: zhCn\n   })\n   \n // 全局引入SVG\n-  import SvgIcon from\n+  import SvgIcon from @/\n \n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871523692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n     locale: zhCn\n   })\n   \n // 全局引入SVG\n-  import SvgIcon from @/\n+  import SvgIcon from @/compon\n \n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871562364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n     locale: zhCn\n   })\n   \n // 全局引入SVG\n-  import SvgIcon from @/compon\n+  import SvgIcon from '@/components/\n \n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871568891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n     locale: zhCn\n   })\n   \n // 全局引入SVG\n-  import SvgIcon from '@/components/\n+  import SvgIcon from '@/components/SvgIcon/index\n \n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871580132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n     locale: zhCn\n   })\n   \n // 全局引入SVG\n-  import SvgIcon from '@/components/SvgIcon/index\n-\n+  import SvgIcon from '@/components/SvgIcon/index.vue'\n+app.\n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871587241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,7 @@\n   })\n   \n // 全局引入SVG\n   import SvgIcon from '@/components/SvgIcon/index.vue'\n-app.\n+app.component('S)\n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871593836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,7 @@\n   })\n   \n // 全局引入SVG\n   import SvgIcon from '@/components/SvgIcon/index.vue'\n-app.component('S)\n+app.component('SvgIcon',S)\n     app.mount('#app')\n \n"
+                },
+                {
+                    "date": 1711871601812,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import { createApp } from 'vue'\n+import './style.css'\n+import App from '@/App.vue'\n+import ElementPlus from 'element-plus'\n+import 'element-plus/dist/index.css'\n+// svg插件配置\n+import 'virtual:svg-icons-register'\n+// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n+// @ts-expect-error\n+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n+const app = createApp(App)\n+app.use(ElementPlus, {\n+  locale: zhCn,\n+})\n+\n+// 全局引入SVG\n+import SvgIcon from '@/components/SvgIcon/index.vue'\n+app.component('SvgIcon', SvgIcon)\n+app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871646240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,27 +13,7 @@\n   locale: zhCn,\n })\n \n // 全局引入SVG\n-import SvgIcon from '@/components/SvgIcon/index.vue'\n+import SvgIcon from '@/components/SvgIcon.vue'\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n-import { createApp } from 'vue'\n-import './style.css'\n-import App from '@/App.vue'\n-import ElementPlus from 'element-plus'\n-import 'element-plus/dist/index.css'\n-// svg插件配置\n-import 'virtual:svg-icons-register'\n-// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n-// @ts-expect-error\n-import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-const app = createApp(App)\n-  app.use(ElementPlus, {\n-    locale: zhCn\n-  })\n-  \n-// 全局引入SVG\n-  import SvgIcon from '@/components/SvgIcon/index.vue'\n-app.component('SvgIcon',S)\n-    app.mount('#app')\n-\n"
+                },
+                {
+                    "date": 1711871690593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,7 @@\n   locale: zhCn,\n })\n \n // 全局引入SVG\n-import SvgIcon from '@/components/SvgIcon.vue'\n+import SvgIcon from '@/components/SvgIcon/index.vue'\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871701993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,7 @@\n   locale: zhCn,\n })\n \n // 全局引入SVG\n-import SvgIcon from '@/components/SvgIcon/index.vue'\n+import SvgIcon from ''\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871709163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import { createApp } from 'vue'\n+import './style.css'\n+import App from '@/App.vue'\n+import ElementPlus from 'element-plus'\n+import 'element-plus/dist/index.css'\n+// svg插件配置\n+import 'virtual:svg-icons-register'\n+// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n+// @ts-expect-error\n+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n+const app = createApp(App)\n+app.use(ElementPlus, {\n+  locale: zhCn,\n+})\n+\n+// 全局引入SVG\n+import SvgIcon from '@/components'\n+app.component('SvgIcon', SvgIcon)\n+app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871715628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,26 +13,7 @@\n   locale: zhCn,\n })\n \n // 全局引入SVG\n-import SvgIcon from '@/components'\n+import SvgIcon from '@/components/SvgIcon\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n-import { createApp } from 'vue'\n-import './style.css'\n-import App from '@/App.vue'\n-import ElementPlus from 'element-plus'\n-import 'element-plus/dist/index.css'\n-// svg插件配置\n-import 'virtual:svg-icons-register'\n-// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n-// @ts-expect-error\n-import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-const app = createApp(App)\n-app.use(ElementPlus, {\n-  locale: zhCn,\n-})\n-\n-// 全局引入SVG\n-import SvgIcon from ''\n-app.component('SvgIcon', SvgIcon)\n-app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871722040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,7 @@\n   locale: zhCn,\n })\n \n // 全局引入SVG\n-import SvgIcon from '@/components/SvgIcon\n+import SvgIcon from '@/components/SvgIcon/index.vue'\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871794600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n \n+// \n // 全局引入SVG\n import SvgIcon from '@/components/SvgIcon/index.vue'\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871802889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n   locale: zhCn,\n })\n \n // \n+import global\n // 全局引入SVG\n import SvgIcon from '@/components/SvgIcon/index.vue'\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871811714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   locale: zhCn,\n })\n \n // \n-import global\n+import globalComponent from '@'\n // 全局引入SVG\n import SvgIcon from '@/components/SvgIcon/index.vue'\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871817250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   locale: zhCn,\n })\n \n // \n-import globalComponent from '@'\n+import globalComponent from '@/comp'\n // 全局引入SVG\n import SvgIcon from '@/components/SvgIcon/index.vue'\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871823997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   locale: zhCn,\n })\n \n // \n-import globalComponent from '@/comp'\n+import globalComponent from '@/components'\n // 全局引入SVG\n import SvgIcon from '@/components/SvgIcon/index.vue'\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871872580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,22 @@\n+import { createApp } from 'vue'\n+import './style.css'\n+import App from '@/App.vue'\n+import ElementPlus from 'element-plus'\n+import 'element-plus/dist/index.css'\n+// svg插件配置\n+import 'virtual:svg-icons-register'\n+// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n+// @ts-expect-error\n+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n+const app = createApp(App)\n+app.use(ElementPlus, {\n+  locale: zhCn,\n+})\n+\n+// \n+import globalComponent from '@/components'\n+\n+// 全局引入SVG\n+import SvgIcon from '@/components/SvgIcon/index.vue'\n+app.component('SvgIcon', SvgIcon)\n+app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871881105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,30 +14,9 @@\n })\n \n // \n import globalComponent from '@/components'\n-\n+app.use(globalComponent)\n // 全局引入SVG\n import SvgIcon from '@/components/SvgIcon/index.vue'\n app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n-import { createApp } from 'vue'\n-import './style.css'\n-import App from '@/App.vue'\n-import ElementPlus from 'element-plus'\n-import 'element-plus/dist/index.css'\n-// svg插件配置\n-import 'virtual:svg-icons-register'\n-// eslint-disable-next-line @typescript-eslint/ban-ts-comment\n-// @ts-expect-error\n-import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n-const app = createApp(App)\n-app.use(ElementPlus, {\n-  locale: zhCn,\n-})\n-\n-// \n-import globalComponent from '@/components'\n-// 全局引入SVG\n-import SvgIcon from '@/components/SvgIcon/index.vue'\n-app.component('SvgIcon', SvgIcon)\n-app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871892661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,8 @@\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n \n-// \n import globalComponent from '@/components'\n app.use(globalComponent)\n // 全局引入SVG\n import SvgIcon from '@/components/SvgIcon/index.vue'\n"
+                },
+                {
+                    "date": 1711871898908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,5 @@\n })\n \n import globalComponent from '@/components'\n app.use(globalComponent)\n-// 全局引入SVG\n-import SvgIcon from '@/components/SvgIcon/index.vue'\n-app.component('SvgIcon', SvgIcon)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711871904484,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,6 @@\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n \n-import globalComponent from '@/components'\n-app.use(globalComponent)\n+impo.use(globalComponent)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872178912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,7 @@\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n \n-impo.use(globalComponent)\n+\n+app.use(globalComponent)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872189210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,5 @@\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n \n-\n-app.use(globalComponent)\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872194877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n const app = createApp(App)\n app.use(ElementPlus, {\n   locale: zhCn,\n-})\n+});\n \n-app.mount('#app')\n+app.mount('#app');\n"
+                },
+                {
+                    "date": 1711872208562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n const app = createApp(App)\n app.use(ElementPlus, {\n   locale: zhCn,\n-});\n+})\n \n-app.mount('#app');\n+app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872272453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,7 @@\n const app = createApp(App)\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n+import \n \n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872278444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n const app = createApp(App)\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n-import \n+import { GlobalComponents } from 'vue'\n \n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872286217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n const app = createApp(App)\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n-import { GlobalComponents } from 'vue'\n+import globalCompon\n \n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872293272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n const app = createApp(App)\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n-import globalCompon\n+import globalComponents from ''\n \n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872306728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,8 @@\n const app = createApp(App)\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n-import globalComponents from ''\n+import globalComponents from '@/components'\n+app.use(globalComponents)\n \n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872449073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,7 @@\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n import globalComponents from '@/components'\n-app.use(globalComponents)\n+app.use(globalComponents);\n \n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872572847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,6 @@\n })\n import globalComponents from '@/components'\n app.use(globalComponents);\n \n+\n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872696720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,7 @@\n })\n import globalComponents from '@/components'\n app.use(globalComponents);\n \n+import \n \n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872702353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,7 @@\n })\n import globalComponents from '@/components'\n app.use(globalComponents);\n \n-import \n+import '@/styles'\n \n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872723624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,7 @@\n })\n import globalComponents from '@/components'\n app.use(globalComponents);\n \n-import '@/styles'\n+import '@/styles/index.scss'\n \n app.mount('#app')\n"
+                },
+                {
+                    "date": 1711872780130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n import { createApp } from 'vue'\n-import './style.css'\n import App from '@/App.vue'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n // svg插件配置\n"
+                },
+                {
+                    "date": 1711872807785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n import globalComponents from '@/components'\n-app.use(globalComponents);\n+app.use(globalComponents)\n \n import '@/styles/index.scss'\n \n app.mount('#app')\n"
+                }
+            ],
+            "date": 1710660327281,
+            "name": "Commit-0",
+            "content": "import { createApp } from 'vue'\nimport './style.css'\nimport App from './App.vue'\nvar \ncreateApp(App).mount('#app')\n"
         }
-      ],
-      "date": 1710660327281,
-      "name": "Commit-0",
-      "content": "import { createApp } from 'vue'\nimport './style.css'\nimport App from './App.vue'\nvar \ncreateApp(App).mount('#app')\n"
-    }
-  ]
+    ]
 }

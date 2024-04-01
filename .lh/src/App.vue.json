@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 53,
             "patches": [
                 {
                     "date": 1710658581790,
@@ -20,6 +20,206 @@
                 {
                     "date": 1711786459504,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n <script setup lang=\"ts\"></script>\n \n <template>\n-  <div>我是App</div>\n+  <div>我是App22</div>\n </template>\n \n <style scoped>\n-.logo{\n+.logo {\n   height: 6em;\n   padding: 1.5em;\n   will-change: filter;\n   transition: filter 300ms;\n"
+                },
+                {
+                    "date": 1711787925913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n <script setup lang=\"ts\"></script>\n \n <template>\n   <div>我是App22</div>\n+  <el-butt\n </template>\n \n <style scoped>\n .logo {\n"
+                },
+                {
+                    "date": 1711787933013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <script setup lang=\"ts\"></script>\n \n <template>\n   <div>我是App22</div>\n-  <el-butt\n+  <</el-button>\n </template>\n \n <style scoped>\n .logo {\n"
+                },
+                {
+                    "date": 1711787942658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <script setup lang=\"ts\"></script>\n \n <template>\n   <div>我是App22</div>\n-  <</el-button>\n+<el-button></el-button>\n </template>\n \n <style scoped>\n .logo {\n"
+                },
+                {
+                    "date": 1711788748106,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n-<script setup lang=\"ts\"></script>\n+<script setup lang=\"ts\">\n+</script>\n \n <template>\n   <div>我是App22</div>\n-<el-button></el-button>\n+<el-button>22</el-button>\n </template>\n \n <style scoped>\n .logo {\n"
+                },
+                {
+                    "date": 1711788754855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <script setup lang=\"ts\">\n+import Test from \"\"\n </script>\n \n <template>\n   <div>我是App22</div>\n"
+                },
+                {
+                    "date": 1711788763370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <script setup lang=\"ts\">\n-import Test from \"\"\n+import Test from \"@/components/\"\n </script>\n \n <template>\n   <div>我是App22</div>\n"
+                },
+                {
+                    "date": 1711788773182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n <script setup lang=\"ts\">\n-import Test from \"@/components/\"\n+import Test from \"@/components/test.vue\"\n </script>\n \n <template>\n   <div>我是App22</div>\n+  <Test></Test>\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711869893923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n </script>\n \n <template>\n   <div>我是App22</div>\n-  <Test></Test>\n+  <Test>\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711869899172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n <script setup lang=\"ts\">\n-import Test from \"@/components/test.vue\"\n+\n </script>\n \n <template>\n   <div>我是App22</div>\n-  <Test>\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711869909350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n </script>\n \n <template>\n   <div>我是App22</div>\n+  <sv\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711869916836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n </script>\n \n <template>\n   <div>我是App22</div>\n-  <sv\n+  <svg>\n+    <use></use>\n+  </svg>\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711869921852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <template>\n   <div>我是App22</div>\n   <svg>\n-    <use></use>\n+    <use xlin></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711869928059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <template>\n   <div>我是App22</div>\n   <svg>\n-    <use xlin></use>\n+    <use xlink-href=\"#\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711869934638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <template>\n   <div>我是App22</div>\n   <svg>\n-    <use xlink-href=\"#\"></use>\n+    <use xlink-href=\"#icon-setting\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711870257061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <template>\n   <div>我是App22</div>\n   <svg>\n-    <use xlink-href=\"#icon-setting\"></use>\n+    <use xlinkhref=\"#icon-setting\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711870265964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n \n </script>\n \n <template>\n-  <div>我是App22</div>\n+  <div>我是A2</div>\n   <svg>\n-    <use xlinkhref=\"#icon-setting\"></use>\n+    <use xlink:href=\"#icon-setting\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711870348762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <template>\n   <div>我是A2</div>\n   <svg>\n-    <use xlink:href=\"#icon-setting\"></use>\n+    <use xlink:href=\"#icon-setting\" fi></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711870380739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <svg>\n-    <use xlink:href=\"#icon-setting\" fi></use>\n+  <svg >\n+    <use xlink:href=\"#icon-setting\" fill=\"red\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711870385858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <svg >\n+  <svg style=\"\">\n     <use xlink:href=\"#icon-setting\" fill=\"red\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n"
+                },
+                {
+                    "date": 1711870391236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <svg style=\"\">\n+  <svg style=\"width: 30px;\">\n     <use xlink:href=\"#icon-setting\" fill=\"red\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n"
+                },
+                {
+                    "date": 1711870406540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <svg style=\"width: 30px;\">\n-    <use xlink:href=\"#icon-setting\" fill=\"red\"></use>\n+  <svg style=\"width: 30px;height: 30px;\">\n+    <use xlink:href=\"#icon-setting\" fill=\"yellow\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711870560551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n <template>\n   <div>我是A2</div>\n   <svg style=\"width: 30px;height: 30px;\">\n-    <use xlink:href=\"#icon-setting\" fill=\"yellow\"></use>\n+    <use xlink:href=\"#icon-setting\" fill=\"#\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711870581323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <svg style=\"width: 30px;height: 30px;\">\n-    <use xlink:href=\"#icon-setting\" fill=\"#\"></use>\n+  <svg style=\"width: 30px;height: 30px;color\">\n+    <use xlink:href=\"#icon-setting\" fill=\"#332200\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711870603429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <svg style=\"width: 30px;height: 30px;color\">\n+  <svg style=\"width: 30px;height: 30px;color:red\">\n     <use xlink:href=\"#icon-setting\" fill=\"#332200\"></use>\n   </svg>\n <el-button>22</el-button>\n </template>\n"
+                },
+                {
+                    "date": 1711870609583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,26 @@\n+<script setup lang=\"ts\">\n+\n+</script>\n+\n+<template>\n+  <div>我是A2</div>\n+  <svg style=\"width: 30px;height: 30px;color:red\">\n+    <use xlink:href=\"#icon-setting\" fill=\"red\"></use>\n+  </svg>\n+<el-button>22</el-button>\n+</template>\n+\n+<style scoped>\n+.logo {\n+  height: 6em;\n+  padding: 1.5em;\n+  will-change: filter;\n+  transition: filter 300ms;\n+}\n+.logo:hover {\n+  filter: drop-shadow(0 0 2em #646cffaa);\n+}\n+.logo.vue:hover {\n+  filter: drop-shadow(0 0 2em #42b883aa);\n+}\n+</style>\n"
+                },
+                {
+                    "date": 1711870891114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <script setup lang=\"ts\">\n-\n+  import \n </script>\n \n <template>\n   <div>我是A2</div>\n@@ -23,30 +23,4 @@\n .logo.vue:hover {\n   filter: drop-shadow(0 0 2em #42b883aa);\n }\n </style>\n-<script setup lang=\"ts\">\n-\n-</script>\n-\n-<template>\n-  <div>我是A2</div>\n-  <svg style=\"width: 30px;height: 30px;color:red\">\n-    <use xlink:href=\"#icon-setting\" fill=\"#332200\"></use>\n-  </svg>\n-<el-button>22</el-button>\n-</template>\n-\n-<style scoped>\n-.logo {\n-  height: 6em;\n-  padding: 1.5em;\n-  will-change: filter;\n-  transition: filter 300ms;\n-}\n-.logo:hover {\n-  filter: drop-shadow(0 0 2em #646cffaa);\n-}\n-.logo.vue:hover {\n-  filter: drop-shadow(0 0 2em #42b883aa);\n-}\n-</style>\n"
+                },
+                {
+                    "date": 1711870897095,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <script setup lang=\"ts\">\n-  import \n+  import S\n </script>\n \n <template>\n   <div>我是A2</div>\n"
+                },
+                {
+                    "date": 1711870908248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <script setup lang=\"ts\">\n-  import S\n+  import SvgIcon from '@/c'\n </script>\n \n <template>\n   <div>我是A2</div>\n"
+                },
+                {
+                    "date": 1711870915372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <script setup lang=\"ts\">\n-  import SvgIcon from '@/c'\n+  import SvgIcon from '@/components/SvgIcon'\n </script>\n \n <template>\n   <div>我是A2</div>\n"
+                },
+                {
+                    "date": 1711870924869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,11 @@\n <script setup lang=\"ts\">\n-  import SvgIcon from '@/components/SvgIcon'\n+  import SvgIcon from '@/components/SvgIcon.vue'\n </script>\n \n <template>\n   <div>我是A2</div>\n+  <SvgIcon></SvgIcon>\n   <svg style=\"width: 30px;height: 30px;color:red\">\n     <use xlink:href=\"#icon-setting\" fill=\"red\"></use>\n   </svg>\n <el-button>22</el-button>\n"
+                },
+                {
+                    "date": 1711870931626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <SvgIcon></SvgIcon>\n+  <SvgIcon name=\"setting\"></SvgIcon>\n   <svg style=\"width: 30px;height: 30px;color:red\">\n     <use xlink:href=\"#icon-setting\" fill=\"red\"></use>\n   </svg>\n <el-button>22</el-button>\n"
+                },
+                {
+                    "date": 1711870948632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,12 +3,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <SvgIcon name=\"setting\"></SvgIcon>\n-  <svg style=\"width: 30px;height: 30px;color:red\">\n-    <use xlink:href=\"#icon-setting\" fill=\"red\"></use>\n-  </svg>\n+ \n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711870956795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n- \n+  <SvgIcon name=\"setting\" cl></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711871273400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <SvgIcon name=\"setting\" cl></SvgIcon>\n+  <SvgIcon name=\"setting\" color=\"red\" width=\"\"></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711871282732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <SvgIcon name=\"setting\" color=\"red\" width=\"\"></SvgIcon>\n+  <SvgIcon name=\"setting\" color=\"red\" width=\"60px ></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711871326720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <SvgIcon name=\"setting\" color=\"red\" width=\"60px ></SvgIcon>\n+  <SvgIcon name=\"setting\" color=\"\" width=\"60px\" height=\"60px\"></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711871610906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n <script setup lang=\"ts\">\n-  import SvgIcon from '@/components/SvgIcon.vue'\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <SvgIcon name=\"setting\" color=\"\" width=\"60px\" height=\"60px\"></SvgIcon>\n+  <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711871965279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n </script>\n \n <template>\n   <div>我是A2</div>\n-  <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n+  <!-- <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon> -->\n <el-button>22</el-button>\n </template>\n \n <style scoped>\n"
+                },
+                {
+                    "date": 1711872164348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,23 @@\n+<script setup lang=\"ts\">\n+</script>\n+\n+<template>\n+  <div>我是A2</div>\n+  <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n+<el-button>22</el-button>\n+</template>\n+\n+<style scoped>\n+.logo {\n+  height: 6em;\n+  padding: 1.5em;\n+  will-change: filter;\n+  transition: filter 300ms;\n+}\n+.logo:hover {\n+  filter: drop-shadow(0 0 2em #646cffaa);\n+}\n+.logo.vue:hover {\n+  filter: drop-shadow(0 0 2em #42b883aa);\n+}\n+</style>\n"
+                },
+                {
+                    "date": 1711872501066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n-<style scoped>\n+<style scoped lang=sc>\n .logo {\n   height: 6em;\n   padding: 1.5em;\n   will-change: filter;\n@@ -20,27 +20,4 @@\n .logo.vue:hover {\n   filter: drop-shadow(0 0 2em #42b883aa);\n }\n </style>\n-<script setup lang=\"ts\">\n-</script>\n-\n-<template>\n-  <div>我是A2</div>\n-  <!-- <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon> -->\n-<el-button>22</el-button>\n-</template>\n-\n-<style scoped>\n-.logo {\n-  height: 6em;\n-  padding: 1.5em;\n-  will-change: filter;\n-  transition: filter 300ms;\n-}\n-.logo:hover {\n-  filter: drop-shadow(0 0 2em #646cffaa);\n-}\n-.logo.vue:hover {\n-  filter: drop-shadow(0 0 2em #42b883aa);\n-}\n-</style>\n"
+                },
+                {
+                    "date": 1711872506883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n   <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n-<style scoped lang=sc>\n+<style scoped lang=scss>\n+div\n .logo {\n   height: 6em;\n   padding: 1.5em;\n   will-change: filter;\n"
+                },
+                {
+                    "date": 1711872514794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,14 @@\n <script setup lang=\"ts\">\n </script>\n \n <template>\n-  <div>我是A2</div>\n+  <div>我是A2 </div>\n   <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n <style scoped lang=scss>\n-div\n .logo {\n   height: 6em;\n   padding: 1.5em;\n   will-change: filter;\n"
+                },
+                {
+                    "date": 1711872524097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <script setup lang=\"ts\">\n </script>\n \n <template>\n-  <div>我是A2 </div>\n+  <div>我是A2 <h1>22</h1></div>\n   <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n"
+                },
+                {
+                    "date": 1711872534439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<script setup lang=\"ts\">\n+</script>\n+\n+<template>\n+  <div>我是A2 <h1>22</h1></div>\n+  <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n+<el-button>22</el-button>\n+</template>\n+\n+<style scoped lang=scss>\n+.div{\n+  h1{\n+    c\n+  }\n+}\n+.logo {\n+  height: 6em;\n+  padding: 1.5em;\n+  will-change: filter;\n+  transition: filter 300ms;\n+}\n+.logo:hover {\n+  filter: drop-shadow(0 0 2em #646cffaa);\n+}\n+.logo.vue:hover {\n+  filter: drop-shadow(0 0 2em #42b883aa);\n+}\n+</style>\n"
+                },
+                {
+                    "date": 1711872742082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,43 +9,10 @@\n \n <style scoped lang=scss>\n .div{\n   h1{\n-    c\n+    color: red;\n   }\n }\n .logo {\n-  height: 6em;\n-  padding: 1.5em;\n-  will-change: filter;\n-  transition: filter 300ms;\n-}\n-.logo:hover {\n-  filter: drop-shadow(0 0 2em #646cffaa);\n-}\n-.logo.vue:hover {\n-  filter: drop-shadow(0 0 2em #42b883aa);\n-}\n+ \n </style>\n-<script setup lang=\"ts\">\n-</script>\n-\n-<template>\n-  <div>我是A2 <h1>22</h1></div>\n-  <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n-<el-button>22</el-button>\n-</template>\n-\n-<style scoped lang=scss>\n-.logo {\n-  height: 6em;\n-  padding: 1.5em;\n-  will-change: filter;\n-  transition: filter 300ms;\n-}\n-.logo:hover {\n-  filter: drop-shadow(0 0 2em #646cffaa);\n-}\n-.logo.vue:hover {\n-  filter: drop-shadow(0 0 2em #42b883aa);\n-}\n-</style>\n"
+                },
+                {
+                    "date": 1711872747263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,6 @@\n <el-button>22</el-button>\n </template>\n \n <style scoped lang=scss>\n-.div{\n-  h1{\n-    color: red;\n-  }\n-}\n-.logo {\n- \n+\n </style>\n"
+                },
+                {
+                    "date": 1711873098958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,8 @@\n <el-button>22</el-button>\n </template>\n \n <style scoped lang=scss>\n-\n+div{\n+  \n+}\n </style>\n"
+                },
+                {
+                    "date": 1711873104214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+<script setup lang=\"ts\">\n+</script>\n+\n+<template>\n+  <div>我是A2 <h1>22</h1></div>\n+  <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n+<el-button>22</el-button>\n+</template>\n+\n+<style scoped lang=scss>\n+div{\n+  color;\n+}\n+</style>\n"
+                },
+                {
+                    "date": 1711873124811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,21 +8,7 @@\n </template>\n \n <style scoped lang=scss>\n div{\n-  color;\n+  color:$color;\n }\n </style>\n-<script setup lang=\"ts\">\n-</script>\n-\n-<template>\n-  <div>我是A2 <h1>22</h1></div>\n-  <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n-<el-button>22</el-button>\n-</template>\n-\n-<style scoped lang=scss>\n-div{\n-  \n-}\n-</style>\n"
+                },
+                {
+                    "date": 1711873148475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n-<style scoped lang=scss>\n+<style scoped lang=\"scss>\n div{\n-  color:$color;\n+  color: $color;\n }\n </style>\n"
                 }
             ],
             "date": 1710658581790,

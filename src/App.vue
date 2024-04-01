@@ -1,20 +1,14 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <template>
-  <div>我是App22</div>
+  <div>我是A2 <h1>22</h1></div>
+  <SvgIcon name="setting" color="pink" width="60px" height="60px"></SvgIcon>
+<el-button>22</el-button>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+<style scoped lang="scss">
+div{
+  color: $color;
 }
 </style>
