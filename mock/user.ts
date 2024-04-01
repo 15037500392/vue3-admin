@@ -34,10 +34,10 @@ export default [
     response: ({ body }) => {
       const { username, password } = body
       const checkUser = createUserList().find((item) => {
-        item.username === username && item.password === password
+        return item.username == username && item.password == password
       })
       if (!checkUser) {
-        return { code: 201, data: { message: '获取用户信息失败' } }
+        return { code: 202, data: { message: '获取用户信息失败' } }
       }
       return { code: 200, data: { checkUser } }
     },

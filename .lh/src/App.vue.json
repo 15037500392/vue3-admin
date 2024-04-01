@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 53,
+            "activePatchIndex": 68,
             "patches": [
                 {
                     "date": 1710658581790,
@@ -220,6 +220,66 @@
                 {
                     "date": 1711873148475,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n <el-button>22</el-button>\n </template>\n \n-<style scoped lang=scss>\n+<style scoped lang=\"scss>\n div{\n-  color:$color;\n+  color: $color;\n }\n </style>\n"
+                },
+                {
+                    "date": 1711975395743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n-<script setup lang=\"ts\">\n-</script>\n+<script setup lang=\"ts\"></script>\n \n <template>\n-  <div>我是A2 <h1>22</h1></div>\n-  <SvgIcon name=\"setting\" color=\"pink\" width=\"60px\" height=\"60px\"></SvgIcon>\n-<el-button>22</el-button>\n+  <div>\n+    我是A2\n+    <h1>22</h1>\n+  </div>\n </template>\n \n-<style scoped lang=\"scss>\n-div{\n+<style scoped lang=\"scss\">\n+div {\n   color: $color;\n }\n </style>\n"
+                },
+                {
+                    "date": 1711975402964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n-<script setup lang=\"ts\"></script>\n+<script setup lang=\"ts\">\n+</script>\n \n <template>\n   <div>\n     我是A2\n"
+                },
+                {
+                    "date": 1711975408408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <script setup lang=\"ts\">\n+import \n </script>\n \n <template>\n   <div>\n"
+                },
+                {
+                    "date": 1711975421884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <script setup lang=\"ts\">\n-import \n+import request from '@/utils/request'\n </script>\n \n <template>\n   <div>\n"
+                },
+                {
+                    "date": 1711975427099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n <script setup lang=\"ts\">\n-import request from '@/utils/request'\n+import request from '@/utils/request';\n+import { }\n </script>\n \n <template>\n   <div>\n"
+                },
+                {
+                    "date": 1711975434847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n <script setup lang=\"ts\">\n import request from '@/utils/request';\n-import { }\n+import { onMounted } from 'vue';\n+\n </script>\n \n <template>\n   <div>\n"
+                },
+                {
+                    "date": 1711975441166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,5 @@\n-<script setup lang=\"ts\">\n-import request from '@/utils/request';\n-import { onMounted } from 'vue';\n \n-</script>\n-\n <template>\n   <div>\n     我是A2\n     <h1>22</h1>\n"
+                },
+                {
+                    "date": 1711975449445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,16 @@\n-\n <template>\n   <div>\n     我是A2\n     <h1>22</h1>\n   </div>\n </template>\n+<script setup lang=\"ts\">\n+import request from '@/utils/request';\n+import { onMounted } from 'vue';\n+onMounted\n \n+</script>\n <style scoped lang=\"scss\">\n div {\n   color: $color;\n }\n"
+                },
+                {
+                    "date": 1711975456111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,11 @@\n </template>\n <script setup lang=\"ts\">\n import request from '@/utils/request';\n import { onMounted } from 'vue';\n-onMounted\n+onMounted(() => {\n+  request()\n+})\n \n </script>\n <style scoped lang=\"scss\">\n div {\n"
+                },
+                {
+                    "date": 1711975463655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,11 @@\n <script setup lang=\"ts\">\n import request from '@/utils/request';\n import { onMounted } from 'vue';\n onMounted(() => {\n-  request()\n+  request({\n+    url:'/user'\n+  })\n })\n \n </script>\n <style scoped lang=\"scss\">\n"
+                },
+                {
+                    "date": 1711975470627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,10 @@\n import request from '@/utils/request';\n import { onMounted } from 'vue';\n onMounted(() => {\n   request({\n-    url:'/user'\n+    url: '/user/login',\n+    method\n   })\n })\n \n </script>\n"
+                },
+                {
+                    "date": 1711975477660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,10 @@\n import { onMounted } from 'vue';\n onMounted(() => {\n   request({\n     url: '/user/login',\n-    method\n+    method: 'post',\n+    \n   })\n })\n \n </script>\n"
+                },
+                {
+                    "date": 1711975483737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n onMounted(() => {\n   request({\n     url: '/user/login',\n     method: 'post',\n-    \n+    data:\n   })\n })\n \n </script>\n"
+                },
+                {
+                    "date": 1711975490774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   request({\n     url: '/user/login',\n     method: 'post',\n     data:{\n-      username:\n+      username:'admin',\n     }\n   })\n })\n \n"
+                },
+                {
+                    "date": 1711975541075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,28 @@\n+<template>\n+  <div>\n+    我是A2\n+    <h1>22</h1>\n+  </div>\n+</template>\n+<script setup lang=\"ts\">\n+import request from '@/../utils/request';\n+import { onMounted } from 'vue';\n+onMounted(() => {\n+  request({\n+    url: '/user/login',\n+    method: 'post',\n+    data:{\n+      username: 'admin',\n+      password: '111111'\n+    }\n+  }).then(res => {\n+    console.log(res)\n+  })\n+})\n+\n+</script>\n+<style scoped lang=\"scss\">\n+div {\n+  color: $color;\n+}\n+</style>\n"
                 }
             ],
             "date": 1710658581790,
