@@ -39,7 +39,7 @@ export default [
       if (!checkUser) {
         return { code: 202, data: { message: '获取用户信息失败' } }
       }
-      return { code: 200, data: checkUser}
+      return { code: 200, data: checkUser }
     },
   },
 
