@@ -1,25 +1,21 @@
 <template>
-
-     <router-view v-slot="{Component}">
-        <transition name="fade">
-            <component :is="Component"></component>
-        </transition>
-     </router-view>
+  <router-view v-slot="{ Component }">
+    <transition name="fade">
+      <component :is="Component"></component>
+    </transition>
+  </router-view>
 </template>
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 <style scoped lang="scss">
 .fade-enter-from {
-    opacity: 0;
-    transform: scale(0)
+  opacity: 0;
+  transform: scale(0);
 }
-.fade-enter-active{
-    transition: all .3s;
+.fade-enter-active {
+  transition: all 0.3s;
 }
-.fade-enter-to{
-    opacity: 1;
-    transform: scale(1);
+.fade-enter-to {
+  opacity: 1;
+  transform: scale(1);
 }
-
 </style>
