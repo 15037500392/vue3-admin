@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 97,
+            "activePatchIndex": 99,
             "patches": [
                 {
                     "date": 1710660327281,
@@ -396,6 +396,14 @@
                 {
                     "date": 1711977696893,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,16 @@\n import { createApp } from 'vue'\n import App from '@/App.vue'\n-import router from './'\n+import router from './router'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n // svg插件配置\n import 'virtual:svg-icons-register'\n // eslint-disable-next-line @typescript-eslint/ban-ts-comment\n // @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n const app = createApp(App)\n+app.use(router)\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n import globalComponents from '@/components'\n"
+                },
+                {
+                    "date": 1712364836850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import { createApp } from 'vue'\n import App from '@/App.vue'\n import router from './router'\n+import pinia from './store'\n import ElementPlus from 'element-plus'\n import 'element-plus/dist/index.css'\n // svg插件配置\n import 'virtual:svg-icons-register'\n"
+                },
+                {
+                    "date": 1712364844924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n // @ts-expect-error\n import zhCn from 'element-plus/dist/locale/zh-cn.mjs'\n const app = createApp(App)\n app.use(router)\n+app.use()\n app.use(ElementPlus, {\n   locale: zhCn,\n })\n import globalComponents from '@/components'\n"
                 }
             ],
             "date": 1710660327281,
