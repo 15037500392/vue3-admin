@@ -1,7 +1,12 @@
 <template>
   <div class="layout_container">
     <!-- 左侧菜单栏 -->
-    <div class="layout_slider" :class="layOutSettingStore.fold ? 'layout_slider_fold':'layout_slider_open'">
+    <div
+      class="layout_slider"
+      :class="
+        layOutSettingStore.fold ? 'layout_slider_fold' : 'layout_slider_open'
+      "
+    >
       <Logo></Logo>
       <el-scrollbar class="scrollbar">
         <el-menu
@@ -17,10 +22,18 @@
         </el-menu>
       </el-scrollbar>
     </div>
-    <div class="layout_tabbar" :class="layOutSettingStore.fold ? 'layout_tabbar_fold':'layout_tabbar_open'">
+    <div
+      class="layout_tabbar"
+      :class="
+        layOutSettingStore.fold ? 'layout_tabbar_fold' : 'layout_tabbar_open'
+      "
+    >
       <Tabbar></Tabbar>
     </div>
-    <div class="layout_main" :class="layOutSettingStore.fold ? 'layout_main_fold':'layout_main_open'">
+    <div
+      class="layout_main"
+      :class="layOutSettingStore.fold ? 'layout_main_fold' : 'layout_main_open'"
+    >
       <Main></Main>
     </div>
   </div>
@@ -41,7 +54,7 @@ import useUserStore from '@/store/modules/user.ts'
 import { useRoute } from 'vue-router'
 const layOutSettingStore = useLayOutSettingStore()
 const $router = useRoute()
-console.log($router.fullPath,'router')
+console.log($router.fullPath, 'router')
 const userStore = useUserStore()
 </script>
 <style scoped lang="scss">
@@ -62,23 +75,23 @@ const userStore = useUserStore()
       }
     }
   }
-  .layout_slider_open{
+  .layout_slider_open {
     width: $base-menu-width;
   }
-  .layout_slider_fold{
+  .layout_slider_fold {
     width: $base-menu-fold-width;
   }
   .layout_tabbar {
     position: fixed;
     height: $base-tabbar-height;
-    top: 0px; 
-    transform: all 0.3s; 
+    top: 0px;
+    transform: all 0.3s;
   }
-  .layout_tabbar_fold{
+  .layout_tabbar_fold {
     width: calc(100% - $base-menu-fold-width);
     left: $base-menu-fold-width;
   }
-  .layout_tabbar_open{
+  .layout_tabbar_open {
     width: calc(100% - $base-menu-width);
     left: $base-menu-width;
   }
@@ -90,11 +103,11 @@ const userStore = useUserStore()
     padding: 20px;
     transform: all 0.3s;
   }
-  .layout_main_fold{
+  .layout_main_fold {
     width: calc(100% - $base-menu-fold-width);
     left: $base-menu-fold-width;
   }
-  .layout_main_open{
+  .layout_main_open {
     width: calc(100% - $base-menu-width);
     left: $base-menu-width;
   }

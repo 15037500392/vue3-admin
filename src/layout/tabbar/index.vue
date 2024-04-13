@@ -1,10 +1,10 @@
 <template>
   <div class="tabbar">
     <div class="tabbar_left">
-        <Breadcrumb></Breadcrumb>
+      <Breadcrumb></Breadcrumb>
     </div>
     <div class="tabbar_right">
-     <Setting></Setting>
+      <Setting></Setting>
     </div>
   </div>
 </template>
