@@ -3,6 +3,11 @@
     <use :xlink:href="prefix + name" :fill="color"></use>
   </svg>
 </template>
+<script lang="ts">
+export default {
+  name: 'SvgIcon',
+}
+</script>
 <script setup lang="ts">
 //接收父组件传递过来的参数
 defineProps({

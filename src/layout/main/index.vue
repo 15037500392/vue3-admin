@@ -5,6 +5,12 @@
     </transition>
   </router-view>
 </template>
+<script lang="ts">
+export default {
+  // eslint-disable-next-line vue/no-reserved-component-names
+  name: 'Main',
+}
+</script>
 <script setup lang="ts"></script>
 <style scoped lang="scss">
 .fade-enter-from {

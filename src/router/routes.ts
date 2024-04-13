@@ -15,6 +15,7 @@ export const constantRoute = [
     meta: {
       title: '首页',
       hidden: false,
+      icon: 'HomeFilled',
     },
     children: [
       {

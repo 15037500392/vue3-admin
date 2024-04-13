@@ -26,12 +26,13 @@
     </template>
   </template>
 </template>
-<script setup lang="ts">
-defineProps(['menuList'])
-</script>
 <script lang="ts">
 export default {
-  name: 'Menu',
+  // eslint-disable-next-line vue/no-reserved-component-names
+  name: 'Menu'
 }
+</script>
+<script setup lang="ts">
+defineProps(['menuList'])
 </script>
 <style></style>

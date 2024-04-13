@@ -1,11 +1,18 @@
 <template>
   <div class="logo" v-if="setting.loginHidden">
     <img class="img" :src="setting.logo" alt="logo" />
-    <p class="title">{{ setting.title }}</p>
+    <p class="title" v-if="!layOutSettingStore.fold">{{ setting.title }}</p>
   </div>
 </template>
+<script lang="ts">
+export default {
+  name: 'Logo',
+}
+</script>
 <script setup lang="ts">
+import useLayOutSettingStore from '@/store/modules/setting.ts'
 import setting from '@/setting'
+const layOutSettingStore = useLayOutSettingStore()
 </script>
 <style scoped lang="scss">
 .logo {
